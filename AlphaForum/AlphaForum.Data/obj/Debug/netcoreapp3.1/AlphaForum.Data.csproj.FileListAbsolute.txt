@@ -1,0 +1,8 @@
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\bin\Debug\netcoreapp3.1\AlphaForum.Data.deps.json
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\bin\Debug\netcoreapp3.1\AlphaForum.Data.dll
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\obj\Debug\netcoreapp3.1\AlphaForum.Data.csprojAssemblyReference.cache
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\obj\Debug\netcoreapp3.1\AlphaForum.Data.AssemblyInfoInputs.cache
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\obj\Debug\netcoreapp3.1\AlphaForum.Data.AssemblyInfo.cs
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\bin\Debug\netcoreapp3.1\AlphaForum.Data.runtimeconfig.json
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\bin\Debug\netcoreapp3.1\AlphaForum.Data.runtimeconfig.dev.json
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Data\obj\Debug\netcoreapp3.1\AlphaForum.Data.genruntimeconfig.cache
