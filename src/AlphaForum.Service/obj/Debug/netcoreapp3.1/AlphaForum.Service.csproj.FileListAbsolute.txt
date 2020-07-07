@@ -1,0 +1,9 @@
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\bin\Debug\netcoreapp3.1\AlphaForum.Service.deps.json
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\bin\Debug\netcoreapp3.1\AlphaForum.Service.dll
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\bin\Debug\netcoreapp3.1\AlphaForum.Service.pdb
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\obj\Debug\netcoreapp3.1\AlphaForum.Service.csprojAssemblyReference.cache
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\obj\Debug\netcoreapp3.1\AlphaForum.Service.AssemblyInfoInputs.cache
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\obj\Debug\netcoreapp3.1\AlphaForum.Service.AssemblyInfo.cs
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\obj\Debug\netcoreapp3.1\AlphaForum.Service.csproj.CoreCompileInputs.cache
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\obj\Debug\netcoreapp3.1\AlphaForum.Service.dll
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\AlphaForum\AlphaForum.Service\obj\Debug\netcoreapp3.1\AlphaForum.Service.pdb
