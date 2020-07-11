@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Data\\AlphaForum.Data.csproj": {}
+    "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Data\\AlphaForum.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Data\\AlphaForum.Data.csproj": {
+    "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Data\\AlphaForum.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Data\\AlphaForum.Data.csproj",
+        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Data\\AlphaForum.Data.csproj",
         "projectName": "AlphaForum.Data",
-        "projectPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Data\\AlphaForum.Data.csproj",
+        "projectPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Data\\AlphaForum.Data.csproj",
         "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Data\\obj\\",
+        "outputPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.4, )"
             },

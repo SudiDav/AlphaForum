@@ -1638,7 +1638,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.4"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
         },
         "compile": {
           "bin/placeholder/AlphaForum.Data.dll": {}
@@ -5839,11 +5840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Web\\AlphaForum.Web.csproj",
+      "projectUniqueName": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Web\\AlphaForum.Web.csproj",
       "projectName": "AlphaForum.Web",
-      "projectPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Web\\AlphaForum.Web.csproj",
+      "projectPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Web\\AlphaForum.Web.csproj",
       "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Web\\obj\\",
+      "outputPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5864,8 +5865,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Data\\AlphaForum.Data.csproj": {
-              "projectPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\AlphaForum\\AlphaForum.Data\\AlphaForum.Data.csproj"
+            "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Data\\AlphaForum.Data.csproj": {
+              "projectPath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Data\\AlphaForum.Data.csproj"
             }
           }
         }
