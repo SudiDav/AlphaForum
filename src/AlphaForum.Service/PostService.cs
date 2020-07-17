@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AlphaForum.Data;
@@ -34,7 +35,7 @@ namespace AlphaForum.Service
 
         public IEnumerable<Post> GetPostsByForumId(int id)
         {
-            throw new NotImplementedException();
+            return _context.Forums.First(forum => forum.Id == id).Posts;
         }
 
         public Task Add(Post post)

@@ -1,0 +1,40 @@
+﻿@model AlphaForum.Web.ViewModels.Forums.ForumDetailsModel
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Welcome to the @Model.Forum.Name Forum!</h1>
+
+@if (Model.Posts.Any())
+{
+    <table class="table table-bordered table-hover">
+        <tbody>
+            @foreach (var post in Model.Posts)
+            {
+                <tr>
+                    <a asp-controller="Post" asp-action="Index" asp-route-id="@post.Id">
+                        <td>@post.Title</td>
+                    </a>
+                    <td>@post.Author</td>
+                    <td>@post.AuthorRating</td>
+                    <td>@post.RepliesCount</td>
+                    <td>@post.DatePosted</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="noPosts">
+        <h3>
+            It looks like there is no @Model.Forum.Name posts yet <br />
+            Why not
+            <a asp-controller="Post" asp-action="Create" asp-route-id="@Model.Forum.Id">
+                <span>create</span>
+            </a>
+            one?
+        </h3>
+    </div>
+}

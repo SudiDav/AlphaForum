@@ -815,3 +815,4 @@ C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\src\AlphaForum.Web\obj\D
 C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\src\AlphaForum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Forum\Index.cshtml.g.cs
 C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\src\AlphaForum.Web\bin\Debug\netcoreapp3.1\AlphaForum.Service.dll
 C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\src\AlphaForum.Web\bin\Debug\netcoreapp3.1\AlphaForum.Service.pdb
+C:\Users\sudis\Documents\Projects\dotnetCore\AlphaForum\src\AlphaForum.Web\obj\Debug\netcoreapp3.1\Razor\Views\Forum\Details.cshtml.g.cs
