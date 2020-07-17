@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AlphaForum.Data;
@@ -20,7 +21,19 @@ namespace AlphaForum.Service
 
         public Forum GetById(int id)
         {
-            throw new NotImplementedException();
+            var forum = _context.Forums.Where(f => f.Id == id)
+                .Include(f => f.Posts)
+                     .ThenInclude(f => f.User)
+                .Include(f => f.Posts)
+                    .ThenInclude(f => f.Replies)
+                        .ThenInclude(f => f.User)
+                .Include(f => f.Posts)
+                    .ThenInclude(p => p.Forum)
+                .FirstOrDefault();
+
+            forum.Posts ??= new List<Post>(); //checks for null reference... C#8
+
+            return forum;
         }
 
         public IEnumerable<Forum> GetAll()

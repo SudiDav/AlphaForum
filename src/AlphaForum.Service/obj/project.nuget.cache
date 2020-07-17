@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AJceic7NM1QJ7bWPkJ7SewZmxc2Fqi1i4aK306IR3wv+z3vdb1lMFJ04KRghUz+u74IUJfD8toeZruEnthVBww==",
+  "dgSpecHash": "/2f96LZoQ/uAya8MLYRJ3feKDvI9FTdSlemLWKVulgKDzMsM/2M/l2Y06yrX72T5J6ol2/+sFHJlwqPraOhNIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sudis\\Documents\\Projects\\dotnetCore\\AlphaForum\\src\\AlphaForum.Service\\AlphaForum.Service.csproj",
   "expectedPackageFiles": [
@@ -67,7 +67,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\sudis\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\system.runtime.caching\\4.5.0\\system.runtime.caching.4.5.0.nupkg.sha512",

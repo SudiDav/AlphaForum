@@ -1,0 +1,23 @@
+﻿@model AlphaForum.Web.ViewModels.Forums.ForumIndexViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Forums</h1>
+
+<table class="table table-hover" id="forumIndexTable">
+    <tbody>
+        @foreach (var forum in Model.ForumView)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Forum" asp-action="Details" asp-route-id="@forum.Id">
+                        @forum.Name
+                    </a>
+                </td>
+                <td>@forum.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
