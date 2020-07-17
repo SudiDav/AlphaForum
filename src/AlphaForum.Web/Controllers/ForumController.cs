@@ -12,6 +12,7 @@ namespace AlphaForum.Web.Controllers
     public class ForumController : Controller
     {
         private readonly IForum _forum;
+        private readonly IPost _post;
 
         public ForumController(IForum forum)
         {
@@ -37,6 +38,8 @@ namespace AlphaForum.Web.Controllers
         public IActionResult Details(int id)
         {
             var forum = _forum.GetById(id);
+
+            var post = _post.GetPostsByForumId(id).ToList();
             return View();
         }
     }
