@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AlphaForum.Data;
 using AlphaForum.Data.Models;
 using AlphaForum.Web.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace AlphaForum.Service
 {
@@ -20,7 +21,12 @@ namespace AlphaForum.Service
 
         public Post GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Posts.Where(post => post.Id == id)
+                .Include(post => post.Forum)
+                .Include(post => post.User)
+                .Include(post => post.Replies)
+                .ThenInclude(reply => reply.User)
+                .FirstOrDefault();
         }
 
         public IEnumerable<Post> GetAll()
