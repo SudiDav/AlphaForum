@@ -13,9 +13,11 @@
             @foreach (var post in Model.Posts)
             {
                 <tr>
-                    <a asp-controller="Post" asp-action="Index" asp-route-id="@post.Id">
-                        <td>@post.Title</td>
-                    </a>
+                    <td>
+                        <a asp-controller="Post" asp-action="Index" asp-route-id="@post.Id">
+                            @post.Title
+                        </a>
+                    </td>
                     <td>@post.Author</td>
                     <td>@post.AuthorRating</td>
                     <td>@post.RepliesCount</td>
